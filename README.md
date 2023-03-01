@@ -1,39 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -60,29 +26,31 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Hello-React-Front-end] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+[Link to Hello-Rails-back-end](https://github.com/svitalis123/hello-rails-back-end/)
+(https://github.com/svitalis123/hello-rails-back-end/)
+**[Hello-React-Front-end]** Hello-rails-Front-end is a React app that renders 5 different greetings in a Postgres database. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
+> built using Ruby on Rails
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+### Rspec, unit tests, Rspec, Devise, Cancancan, Render.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">ROR</a></li>
   </ul>
 </details>
 
@@ -97,11 +65,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Greetings]**
+- **[Rendering greeting as component]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +74,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://menyera.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,103 +82,78 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+
+### clone  [here](https://github.com/svitalis123/hello-rails-back-end.git)
+- run bundle install
+- run rails db:create
+- run rails db:migrate
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- rails s
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd menyera
+  git clone https://github.com/svitalis123/hello-rails-back-end.git
 ```
---->
+-
+
+or run
+- rails new hello-rails-back-end --api -d postgresql -T
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd hello-rails-back-end
+  bundle install
 ```
---->
+-
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
 ```sh
-  rails server
+  rails server -p 8000
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  bin/rails test test/testfolder/testfile_spec.rb
 ```
---->
+-
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- render
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@svitalis123](https://github.com/svitalis123)
+- Twitter: [@WilsonVitalis](https://twitter.com/WilsonVitalis)
+- LinkedIn: [vitalismutwiri](https://linkedin.com/in/vitalismutwiri)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +161,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Create interface to add greetings]**
+- [ ] **[Include a chat platform]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +180,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> Dear readers,
 
-If you like this project...
+> I am writing to encourage you to support the development of tHIS PROJECT with frontend and backend with ROR , REACT and Redux
+
+> By supporting this project, you can contribute to the development of a tool that will allow users to learn how to set up.
+
+> I urge you to support this project and be part of a community 
+
+> Thank you for your support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +196,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to express our sincere appreciation and gratitude to all who have helped to bring our project to life. 
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +205,20 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[where to start using the app]**
+> To create the app, the user must run the command "rails new -j webpack hello_app --database=postgresql" in their terminal. The jsbundling-rails gem is automatically added to the Gemfile for the app. The user must also initialize their project with Git and install the necessary node dependencies.
 
-- **[Question_1]**
+>After setting up the project, the user must create a babel.config.js file and update webpack.config.js to include the babel loader. They must then set up a Postgres database and create a table for storing the greeting messages.
 
-  - [Answer_1]
+>The app also features an API endpoint that selects a random greeting from the message table. The endpoint is accessible through a controller action and a Rails route.
 
-- **[Question_2]**
+>The static view of the app is the root of the application, and it displays the App component with React Router. The Greeting component is set up as a route within the App component and displays the random greeting message.
 
-  - [Answer_2]
+  - [refer to <a href="#getting-started">getting-started</a>]
+
+- **[how to contact the owner]**
+
+  - [refer to <a href="#authors">authors</a>]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +226,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
